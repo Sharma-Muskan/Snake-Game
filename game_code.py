@@ -2,7 +2,7 @@ from tkinter import *
 import random
 
 GAME_WIDTH = 700
-GAME_HEIGHT = 500
+GAME_HEIGHT = 600
 SPEED = 0.3
 SPACE_SIZE = 30
 BODY_PARTS = 1
@@ -145,7 +145,7 @@ window.update()
 window_width = window.winfo_width()
 window_height = window.winfo_height()
 screen_width = window.winfo_screenwidth()
-screen_height = window.winfo_screenheight() - 100
+screen_height = window.winfo_screenheight() - 50
 
 x = int((screen_width/2) - (window_width/2))
 y = int((screen_height/2) - (window_height/2))
